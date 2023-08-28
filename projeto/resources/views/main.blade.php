@@ -23,7 +23,7 @@
         <h1>
             @for($i = 0; $i < count($results); $i++)
                 <div>
-                    {{ $results[$i]->technician }}
+                    Técnico {{ $results[$i]->technician }}
                     {{ $results[$i]->date }}
                     {{ $results[$i]->deadline }}
                     {{ $results[$i]->address }}

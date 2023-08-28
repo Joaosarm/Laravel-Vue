@@ -22,7 +22,6 @@ Route::get('/', function () {
            'id' => $service->id,
            'technician' => $service->technician,
            'date' => $service->date,
-
         ];
      });
 
